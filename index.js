@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-	res.send({ hi: 'there' });
+	res.send({ hi: 'test' });
 });
 
 //Step 1 Heroku: dynamic port binding
